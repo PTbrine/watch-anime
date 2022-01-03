@@ -162,5 +162,6 @@ header div section h2{
 .recomendacoes button{
   margin-top: 20px;
   outline: none;
+  border: none;
 
 }
