@@ -27,10 +27,11 @@ h1 :hover{
   outline: none;
 }
 header div{
-    background-image: url(Imagens/Banner/header.png);
+  background-color: rgba(0, 0, 0, 0.337);
+  background-image: url(Imagens/Banner/header.png);
+  background-blend-mode: multiply;
     display: flex;
     color: white;
-    background-color: white;
     align-items: center;
     padding: 15px;
 }
@@ -313,13 +314,25 @@ header div section h2{
   header div h1{
     text-shadow: 3px 3px black;
     font-weight: bold;
-    flex-basis: 60%;
+    flex-basis: 55%;
     margin-left: 30px;
-    font-size: 4vw;
+    font-size: 3vw;
   }
  
 .header_direita div h2{
-  font-size: 4vw;
+  font-size: 3vw;
+  text-shadow: 1px 1px black;
+}
+.dropdown1{
+  margin-left: -28px;
+  margin-right: 50px;
+}
+.dropdown-content1{
+  margin-right: 40px;
+}
+header div h1{
+  text-shadow: 1px 1x black;
 }
 
 }
+
